@@ -1,0 +1,178 @@
+/* Ceci est un commentaire en CSS - Les navigateurs ignorent les commentaires.
+De cette manière nous pouvons laisser des messages pour d'autres codeurs et des explications de ce que nous avons fait. */
+
+/* Dans les 4 selectors suivants nous allons travailler sur la navigation de notre page.
+
+Nous découvrons ici la possibilité d'utiliser des selectors composés ex : header ul  Ceci permet, par exemple, de cibler les elements de la liste du header sans affecter ceux du footer.
+ */
+header {
+  background: rgb(187, 210, 225);
+  padding: 30px;
+}
+
+header ul {
+  list-style-type: none;
+   }
+
+header li {
+  display: inline-block;
+  border: 1px solid #ffffff;
+}
+
+header a {
+  text-decoration:none;
+  color : #ffffff;
+  padding: 20px;
+  display: block;
+}
+
+/* A noter ici :
+1. L'utilisation d'une class sur la div, nous la ciblons ici dans la CSS au moyen d'un point .
+2. l'utilisation de background image et de background size
+3. une hauteur minimal à la div. (pour comprendre ce qu'est une VH : https://css-tricks.com/the-lengths-of-css/)
+*/
+.hero {
+  background: rgb(0, 0, 0)
+ url('images/fondd.jpg') top center no-repeat;
+  color : rgb(0, 0, 0);
+  min-height: 5vh;
+  max-height: 10vh;
+background-size: cover;
+background-attachment: fixed;
+
+padding:400px;
+justify-content: :center;
+align-items: center;
+display:inline-flex;
+
+}
+
+
+/* Sur les sections :
+1. Nous utilisons encore une hauteur minimale pour faciliter la lecture et le rythme vertical de la page.
+2. Nous utilsons des classes pour permettre d'aleterner visuellement les sections.
+*/
+.image-block1{
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.image-block2 {
+
+
+}
+.image-block3 {
+  margin-right: 25%;
+  margin-left: 0%;
+  max-width: 10px
+}
+
+.image-block4{
+
+margin-right: 60% ;
+max-width: 100;
+
+}
+
+#section01 figcaption{
+  margin-left: ;
+}
+#section03 figcaption{
+  margin-left: 37%;
+}
+#section01 figcaption{
+
+}
+
+#section05 figcaption {
+  margin-left: 89%;
+}
+section {
+  min-height: 90vh;
+  padding: 42px;
+}
+
+.odd {
+  background: rgb(190 ,190, 190);
+}
+
+.even  {
+  background: rgb(187, 210, 225);
+}
+
+
+ .image-block  {
+  margin-right: 50%;
+  max-width: 500px;
+  position:center;
+background-attachment: fixed;
+   }
+
+.image-block1 img {
+  width : 100%;
+display:block;
+
+
+}
+
+.image-block1{
+
+  margin-right: 25%;
+  margin-left: 25%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90;
+}
+
+figcaption {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 0,001em;
+}
+
+footer {
+  min-height: 150px;
+  background: #fff;
+  color : #fff;
+  background-image: url('images/fondd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+padding: 400px
+  color : #fff
+
+   }
+
+footer li {
+  display:inline-grid;
+
+  border: 1px solid #ffffff;
+    margin-left: 15%;
+}
+
+footer a {
+  text-decoration:none;
+  color : #ffffff;
+  padding: 90px;
+  display: block;
+}
+
+
+
+/*
+
+// Small devices
+
+// Medium devices (landscape phones, 576px and up)
+@media (min-width: 640px) { ... }
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// Extra large devices
+
+@media (min-width: 1440px) { ... }
+
+*/

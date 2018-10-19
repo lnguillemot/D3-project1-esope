@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Volkhov');
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+
+
+html {
+  font-size: 1em;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+#section01 p {font-family: 'Love Ya Like A Sister';
+font-weight: 400;
+line-height: 1.45;
+font-size: 1.9em;
+  margin-right: 50%;
+
+}
+#section01 h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 4em;
+  margin-right: 50%;
+
+}
+#section02 h1 {
+font-family: 'Gloria Hallelujah', cursive;
+font-size: 3em;
+margin-right: 25%;
+margin-left: 25%;
+
+
+}
+#section02 p {
+  font-family: 'Josefin Slab', serif;
+font-size: 2em;
+margin-right: 25%;
+margin-left: 25%;
+
+}
+#section03 h1 {
+font-family: 'Prata', serif;
+  font-size: 4em;
+margin-left: 20%;
+margin-right: 20%;
+
+}
+#section03 p {
+font-family: 'Volkhov', serif;
+font-size: 2em;
+
+
+ }
+
+ #section04 h1 {
+   font-family: 'Courgette', cursive;
+   font-size: 5em;
+   margin-right: 50%;
+ }
+ #section04 p {
+ font-family: 'Handlee', cursive;
+ font-size: 2em;
+ margin-right: 50%;
+  }
+#section05 h1 {
+  font-family: 'Crete Round', serif;
+  margin-left:25%;
+  margin-right: 25%;
+  font-size: 4.5em;
+
+}
+#section05 p {
+  font-family: 'Amatic SC', cursive;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 2.3em;
+margin-top: -2%;
+}
+
+
+
+h1 {
+  margin-top: 0;
+  font-size: 9em;
+  text-align: center;
+  color: #fff
+
+}
+
+
+h2 {font-size: 2.827em;
+}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
