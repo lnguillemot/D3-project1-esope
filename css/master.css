@@ -55,6 +55,12 @@ display:inline-flex;
 .image-block1{
   margin-right: 25%;
   margin-left: 25%;
+  min-height: 90vh;
+padding: 42px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
 }
 
 .image-block2 {
